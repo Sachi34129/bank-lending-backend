@@ -30,3 +30,8 @@ This backend service provides a simple RESTful API for managing customer loans, 
 ```bash
 git clone https://github.com/your-username/bank-lending-backend.git
 cd bank-lending-backend
+npm install
+PORT=5000
+MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/bank
+npm run dev
+```
